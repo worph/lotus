@@ -336,8 +336,8 @@ github.com/filecoin-project/go-fil-commcid v0.1.0 h1:3R4ds1A9r6cr8mvZBfMYxTS88Oq
 github.com/filecoin-project/go-fil-commcid v0.1.0/go.mod h1:Eaox7Hvus1JgPrL5+M3+h7aSPHc0cVqpSxA+TxIEpZQ=
 github.com/filecoin-project/go-fil-commp-hashhash v0.1.0 h1:imrrpZWEHRnNqqv0tN7LXep5bFEVOVmQWHJvl2mgsGo=
 github.com/filecoin-project/go-fil-commp-hashhash v0.1.0/go.mod h1:73S8WSEWh9vr0fDJVnKADhfIv/d6dCbAGaAGWbdJEI8=
-github.com/filecoin-project/go-fil-markets v1.20.1 h1:DwrFuNIWC0a2c2ESpHtdEMH3QCpR/hoZ5DwjNT+VJ+E=
-github.com/filecoin-project/go-fil-markets v1.20.1/go.mod h1:QV767KIWHrikVK8R0u2wTc5wkee4gXOf5/AfxDoQckw=
+github.com/filecoin-project/go-fil-markets v1.20.2-0.20220312191631-6ec6b72abf1e h1:gI5OYb4N9GSwInAUI/V1a9O6vExUDfX/Uo2pzRQLPx0=
+github.com/filecoin-project/go-fil-markets v1.20.2-0.20220312191631-6ec6b72abf1e/go.mod h1:ynzYz0VCPGRyLhemjekOZVxqXDXEL4TXXdEqTugtklg=
 github.com/filecoin-project/go-hamt-ipld v0.1.5 h1:uoXrKbCQZ49OHpsTCkrThPNelC4W3LPEk0OrS/ytIBM=
 github.com/filecoin-project/go-hamt-ipld v0.1.5/go.mod h1:6Is+ONR5Cd5R6XZoCse1CWaXZc0Hdb/JeX+EQCQzX24=
 github.com/filecoin-project/go-hamt-ipld/v2 v2.0.0 h1:b3UDemBYN2HNfk3KOXNuxgTTxlWi3xVvbQP0IT38fvM=
@@ -392,8 +392,8 @@ github.com/filecoin-project/specs-actors/v6 v6.0.1 h1:laxvHNsvrq83Y9n+W7znVCePi3
 github.com/filecoin-project/specs-actors/v6 v6.0.1/go.mod h1:V1AYfi5GkHXipx1mnVivoICZh3wtwPxDVuds+fbfQtk=
 github.com/filecoin-project/specs-actors/v7 v7.0.0-20211117170924-fd07a4c7dff9/go.mod h1:p6LIOFezA1rgRLMewbvdi3Pp6SAu+q9FtJ9CAleSjrE=
 github.com/filecoin-project/specs-actors/v7 v7.0.0-20211222192039-c83bea50c402/go.mod h1:p6LIOFezA1rgRLMewbvdi3Pp6SAu+q9FtJ9CAleSjrE=
-github.com/filecoin-project/specs-actors/v7 v7.0.0 h1:FQN7tjt3o68hfb3qLFSJBoLMuOFY0REkFVLO/zXj8RU=
-github.com/filecoin-project/specs-actors/v7 v7.0.0/go.mod h1:TA5FwCna+Yi36POaT7SLKXsgEDvJwc0V/L6ZsO19B9M=
+github.com/filecoin-project/specs-actors/v7 v7.0.1-0.20220312191006-c755c0402f62 h1:3JJG6X+EepoVqrxDtYkYUjEz3CHFr4Y6Qd3SBlOYaC0=
+github.com/filecoin-project/specs-actors/v7 v7.0.1-0.20220312191006-c755c0402f62/go.mod h1:TA5FwCna+Yi36POaT7SLKXsgEDvJwc0V/L6ZsO19B9M=
 github.com/filecoin-project/specs-storage v0.2.0 h1:Y4UDv0apRQ3zI2GiPPubi8JblpUZZphEdaJUxCutfyg=
 github.com/filecoin-project/specs-storage v0.2.0/go.mod h1:Tb88Zq+IBJbvAn3mS89GYj3jdRThBTE/771HCVZdRJU=
 github.com/filecoin-project/storetheindex v0.3.5 h1:KoS9TvjPm6zIZfUH8atAHJbVHOO7GTP1MdTG+v0eE+Q=

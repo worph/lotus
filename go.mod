@@ -38,7 +38,7 @@ require (
 	github.com/filecoin-project/go-data-transfer v1.15.0
 	github.com/filecoin-project/go-fil-commcid v0.1.0
 	github.com/filecoin-project/go-fil-commp-hashhash v0.1.0
-	github.com/filecoin-project/go-fil-markets v1.20.1
+	github.com/filecoin-project/go-fil-markets v1.20.2-0.20220312191631-6ec6b72abf1e
 	github.com/filecoin-project/go-jsonrpc v0.1.5
 	github.com/filecoin-project/go-legs v0.3.7
 	github.com/filecoin-project/go-padreader v0.0.1
@@ -54,7 +54,7 @@ require (
 	github.com/filecoin-project/specs-actors/v4 v4.0.1
 	github.com/filecoin-project/specs-actors/v5 v5.0.4
 	github.com/filecoin-project/specs-actors/v6 v6.0.1
-	github.com/filecoin-project/specs-actors/v7 v7.0.0
+	github.com/filecoin-project/specs-actors/v7 v7.0.1-0.20220312191006-c755c0402f62
 	github.com/filecoin-project/specs-storage v0.2.0
 	github.com/filecoin-project/test-vectors/schema v0.0.5
 	github.com/gbrlsnchs/jwt/v3 v3.0.1
