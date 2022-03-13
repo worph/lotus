@@ -3,6 +3,7 @@ package vm
 import (
 	"bytes"
 	"context"
+	"fmt"
 	"time"
 
 	"github.com/filecoin-project/go-state-types/network"
@@ -40,6 +41,15 @@ type FvmExtern struct {
 	epoch   abi.ChainEpoch
 	lbState LookbackStateGetter
 	base    cid.Cid
+}
+
+// This may eventually become identical to ExecutionTrace, but we can make incremental progress towards that
+type FvmExecutionTrace struct {
+	//Msg    *types.Message
+	//MsgRct *types.MessageReceipt
+	Error string
+
+	//Subcalls []FvmExecutionTrace
 }
 
 // VerifyConsensusFault is similar to the one in syscalls.go used by the Lotus VM, except it never errors
@@ -256,6 +266,15 @@ func (vm *FVM) ApplyMessage(ctx context.Context, cmsg types.ChainMsg) (*ApplyRet
 	if err != nil {
 		return nil, xerrors.Errorf("applying msg: %w", err)
 	}
+
+	fmt.Println("got ", len(ret.ExecTraceBytes))
+
+	var et FvmExecutionTrace
+	if err = et.UnmarshalCBOR(bytes.NewReader(ret.ExecTraceBytes)); err != nil {
+		return nil, xerrors.Errorf("failed to unmarshal exectrace: %w", err)
+	}
+
+	fmt.Println(et.Error)
 
 	return &ApplyRet{
 		MessageReceipt: types.MessageReceipt{
