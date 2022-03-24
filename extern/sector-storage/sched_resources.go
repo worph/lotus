@@ -63,14 +63,14 @@ func (a *activeResources) canHandleRequest(needRes storiface.Resources, wid stor
 	res := info.Resources
 
 	// TODO: dedupe needRes.BaseMinMemory per task type (don't add if that task is already running)
-	memNeeded := needRes.MinMemory + needRes.BaseMinMemory
+	/*memNeeded := needRes.MinMemory + needRes.BaseMinMemory
 	memUsed := a.memUsedMin
 	// assume that MemUsed can be swapped, so only check it in the vmem Check
 	memAvail := res.MemPhysical - memUsed
 	if memNeeded > memAvail {
 		log.Debugf("sched: not scheduling on worker %s for %s; not enough physical memory - need: %dM, have %dM available", wid, caller, memNeeded/mib, memAvail/mib)
 		return false
-	}
+	}*/
 
 	vmemNeeded := needRes.MaxMemory + needRes.BaseMinMemory
 	vmemUsed := a.memUsedMax
